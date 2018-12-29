@@ -1,0 +1,452 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orderp Process</title>
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" >
+    <link rel="stylesheet" href="responsive.css">
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="js/data.js"></script>
+    <script src="js/dynamic.js"></script>
+
+</head>
+<body>
+
+    <header class="">
+        <nav class="navbar ">
+            <div class="visitor-container">
+                <div class="nav-header">
+                        <i class="material-icons d-lg-none">
+                                menu
+                        </i>
+                        <a class="brand" href="#" >
+                            <span class="sr-only"></span>
+                        </a>
+                        <div class="mobile-serach  d-lg-none">
+                            <a href="#"><i class="material-icons">search</i></a>
+                        </div>
+                </div>
+                <div class="desktop-nav">
+                    <ul class="nav-links">
+                        <li class=""><a href="#">Categories</a></li>
+                        <li class=""><a href="#">Services</a></li>
+                        <li class=""><a href="#">Prices</a></li>
+                        <li class=""><a href="#">Awarded Designs</a></li>
+                    </ul>
+                </div>
+            </div>
+           
+        </nav>
+    </header>
+
+
+    <section class="justify-center mt-lg-nav">
+        <div class="container">
+            <div class="row">
+                <div class="section-header">
+                    <h1>Order Details</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="nav-pills-wrapper">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <ul class="nav-pills">
+                            <li class="steps" data-active="0" data-selected="1" data-panel-id="category">
+                                <a href="">
+                                    <h4 class="sup">1</h4>
+                                    <span>Logo Design</span>
+                                </a>
+
+                            </li>
+                            <li class="steps" data-active="1" data-selected="0" data-panel-id="designPane">
+                                <a href="">
+                                    <h4 class="sup">2</h4>
+                                    <span>Pick Your Style</span>
+                                </a>
+                            </li>
+                            <li class="steps" data-active="0" data-selected="0" data-panel-id="colorsScheme">
+                                <a href="">
+                                    <h4 class="sup">3</h4>
+                                    <span>Pick Colors</span>
+
+                                </a>
+                            </li>
+                            <li class="steps" data-active="0" data-selected="0" data-panel-id="projectBrief">
+                                <a href="">
+                                    <h4 class="sup">4</h4>
+                                    <span>Project Brief</span>
+                                </a>
+                            </li>
+                            <li class="steps" data-active="0" data-selected="0">
+                                <a href="">
+                                    <h4 class="sup">5</h4>
+                                    <span>Pay & Proceed</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-changer">
+        <div class="container">
+            <!-- Section or Panel 1 -->
+            <!-- Design Panel -->
+                <div class="row-hr justify-fs panel panel-active" id="designPane">
+                        <div class="col-lg-12">
+                                <div class="owl-cards-menu" data-stage="designPane">
+                                    <div class="owl-theme" id="cart-stage" data-stage="designPane">
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                            <div class="list-view">
+                                <div class="gradient-div"></div>
+                                <img src="/Assets/1.jpg" alt="" id="img">
+                                <span class="d-none" id="1">1</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                            <div class="list-view">
+                                <div class="gradient-div"></div>
+                                <img src="/Assets/2.jpg" alt="" id="img">
+                                <span class="d-none" id="2">2</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                            <div class="list-view">
+                                <div class="gradient-div"></div>
+                                <img src="/Assets/3.jpg" alt="" id="img">
+                                <span class="d-none" id="3">3</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                            <div class="list-view">
+                                <div class="gradient-div"></div>
+                                <img src="/Assets/4.jpg" alt="" id="img">
+                                <span class="d-none" id="4">4</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                            <div class="list-view">
+                                <div class="gradient-div"></div>
+                                <img src="/Assets/1.jpg" alt="" id="img">
+                                <span class="d-none" id="1">1</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                            <div class="list-view">
+                                <div class="gradient-div"></div>
+                                <img src="/Assets/2.jpg" alt="" id="img">
+                                <span class="d-none" id="2">2</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                            <div class="list-view">
+                                <div class="gradient-div"></div>
+                                <img src="/Assets/3.jpg" alt="" id="img">
+                                <span class="d-none" id="3">3</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                            <div class="list-view">
+                                <div class="gradient-div"></div>
+                                <img src="/Assets/4.jpg" alt="" id="img">
+                                <span class="d-none" id="4">4</span>
+                            </div>
+                        </div>     
+                        <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                            <div class="list-view">
+                                <div class="gradient-div"></div>
+                                <img src="/Assets/4.jpg" alt="" id="img">
+                                <span class="d-none" id="4">4</span>
+                            </div>
+                        </div>     
+                        <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                            <div class="list-view">
+                                <div class="gradient-div"></div>
+                                <img src="/Assets/4.jpg" alt="" id="img">
+                                <span class="d-none" id="4">4</span>
+                            </div>
+                        </div>     
+                        
+                        <div class="col-lg-12">
+                            <div class="sticky-menu"> 
+                                <div class="container">
+                                    <div class="row align-cen">
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <a href="" class="btn btn-prev" id="prev" rel="designPane">Previous</a>
+                                            <a href="" class="btn btn-secondry" id="skip-btn-image" rel="designPane">Skip</a>
+                                            <a href="" class="btn btn-next" id="next-btn-image" rel="designPane">Next</a>
+                                            
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                                <p class="align-cen"><i class="material-icons mg-x-1">check_circle_outline
+                                                        </i>100% Money Back Guarantee
+                                                        No Question Asked !</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+
+
+                    <!-- Here Our First panel ends -->
+                    <div class="row-hr justify-sp-btw panel" id="colorsScheme">
+                            <div class="col-lg-12">
+                                    <div class="owl-cards-menu" data-stage="colorsScheme">
+                                        <div class="owl-theme" id="cart-stage" data-stage="colorsScheme">
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                                <div class="list-view">
+                                    <div class="gradient-div"></div>
+                                    <img src="/Assets/yellow-1.png" alt="" id="img">
+                                    <span class="d-none" id="1">1</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                                <div class="list-view">
+                                    <div class="gradient-div"></div>
+                                    <img src="/Assets/blue-1.png" alt="" id="img">
+                                    <span class="d-none" id="2">2</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                                <div class="list-view">
+                                    <div class="gradient-div"></div>
+                                    <img src="/Assets/3.jpg" alt="" id="img">
+                                    <span class="d-none" id="3">3</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                                <div class="list-view">
+                                    <div class="gradient-div"></div>
+                                    <img src="/Assets/4.jpg" alt="" id="img">
+                                    <span class="d-none" id="4">4</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                                <div class="list-view">
+                                    <div class="gradient-div"></div>
+                                    <img src="/Assets/1.jpg" alt="" id="img">
+                                    <span class="d-none" id="1">1</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                                <div class="list-view">
+                                    <div class="gradient-div"></div>
+                                    <img src="/Assets/2.jpg" alt="" id="img">
+                                    <span class="d-none" id="2">2</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                                <div class="list-view">
+                                    <div class="gradient-div"></div>
+                                    <img src="/Assets/3.jpg" alt="" id="img">
+                                    <span class="d-none" id="3">3</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 list-items sample" data-image="">
+                                <div class="list-view">
+                                    <div class="gradient-div"></div>
+                                    <img src="/Assets/4.jpg" alt="" id="img">
+                                    <span class="d-none" id="4">4</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                    <div class="sticky-menu"> 
+                                        <div class="container">
+                                            <div class="row align-cen">
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <a href="" class="btn btn-prev" id="prev" rel="designPane">Previous</a>
+                                                    <a href="" class="btn btn-secondry" id="skip-btn-image" rel="designPane">Skip</a>
+                                                    <a href="" class="btn btn-next" id="next-btn-image" rel="designPane">Next</a>
+                                                    
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                                        <p class="align-cen"><i class="material-icons mg-x-1">check_circle_outline
+                                                                </i>100% Money Back Guarantee
+                                                                No Question Asked !</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>               
+                            
+                        </div>
+                        <!-- *********************** -->
+            <!-- Panel 3 -->
+            <!-- *********************** -->
+            <div class="row-hr justify-sp-btw panel" id="projectBrief">
+                    <form action="" class="fun-with-kami-fluid-form">
+                        <div class="input-with-label-row">
+                            
+                            <div class="col-lg-3 "><label for="projectName"><b class="alert">*</b> Project Name</label></div>
+                            <div class="col-lg-9">
+                                <input type="text" id="projectName" class="funform align-them" placeholder="projectName" required>
+                                <div class="imp-info">
+                                        <i> 100 characters maximum
+                                            </i>
+                                    </div>
+                                <div class="imp-info">
+                                        <i> Write a descriptive contest title to attract more designers. e.g. Create a logo design for acme.
+                                            </i>
+                                    </div>
+                            </div>                     
+                        </div>
+                        <div class="input-with-label-row">
+                            
+                            <div class="col-lg-3 "><label for="description"> Describe your project</label></div>
+                            <div class="col-lg-9">
+                                <textarea name="" id="description" cols="30" rows="10" class="funform align-them"></textarea>
+                                <div class="imp-info">
+                                        <i> E.g. We sell anvils and other industrial goods to manufacturing companies and hobbyists all over the world.
+    
+                                            </i>
+                                    </div>
+                            </div>                     
+                        </div>
+                        <div class="input-with-label-row">
+                            
+                            <div class="col-lg-3 "><label for="projectName"><b class="alert">*</b> Project Name</label></div>
+                            <div class="col-lg-9">
+                                <input type="text" id="projectName" class="funform align-them" placeholder="projectName" required>
+                                <div class="imp-info">
+                                        <i> 100 characters maximum
+                                            </i>
+                                    </div>
+                                <div class="imp-info">
+                                        <i> Write a descriptive contest title to attract more designers. e.g. Create a logo design for acme.
+                                            </i>
+                                    </div>
+                            </div>                     
+                        </div>
+                        <div class="col-lg-12">
+                                <div class="sticky-menu"> 
+                                    <div class="container">
+                                        <div class="row align-cen">
+                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                                <a href="" class="btn btn-prev" id="prev" rel="designPane">Previous</a>
+                                                <a href="" class="btn btn-secondry" id="skip-btn-image" rel="designPane">Proceed</a>
+                                                <a href="" class="btn btn-next" id="next-btn-image" rel="designPane">Next</a>
+                                                
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                                    <p class="align-cen"><i class="material-icons mg-x-1">check_circle_outline
+                                                            </i>100% Money Back Guarantee
+                                                            No Question Asked !</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                                   
+                    </form>
+                    <div class="justify-center">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="section-header">
+                                    <h2>PRICING GUIDE</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="pricing-cards-wrapper">
+                                    <div class="pricing-cards-stage">
+                                        <div class="pricing-card-container pricing-card">
+                                            <div class="package-avtar">
+                                                <img src="assets/Basic.svg" alt="">
+                                            </div>
+                                            <div class="package-name">
+                                                <h3>Basic</h3>
+                                                <p>Individual</p>
+                                            </div>
+                                            <div class="package-support">
+                                                <ul>
+                                                    <li>100% money back guarntee</li>
+                                                    <li>Good Design</li>
+                                                    <li>1 Revision</li>
+                                                    <li>10 designs </li>
+                                                </ul>
+                                            </div>
+                                            <div class="price">
+                                                <sup>$</sup><span>299</span>
+                                            </div>
+                                        </div>
+                                        <div class="pricing-card-container pricing-card">
+                                            <div class="package-avtar">
+                                                <img src="assets/professional.svg" alt="">
+                                            </div>
+                                            <div class="package-name">
+                                                <h3>Premium</h3>
+                                                <p>Business</p>
+                                            </div>
+                                            <div class="package-support">
+                                                <ul>
+                                                    <li>100% money back guarntee</li>
+                                                    <li>Good Design</li>
+                                                    <li>1 Revision</li>
+                                                    <li>10 designs </li>
+                                                </ul>
+                                            </div>
+                                            <div class="price">
+                                                <sup>$</sup><span>799</span>
+                                            </div>
+                                        </div>
+                                        <div class="pricing-card-container pricing-card">
+                                            <div class="package-avtar">
+                                                <img src="assets/ultimate.svg" alt="">
+                                            </div>
+                                            <div class="package-name">
+                                                <h3>Ultimate</h3>
+                                                <p>Enterprise</p>
+                                            </div>
+                                            <div class="package-support">
+                                                <ul>
+                                                    <li>100% money back guarntee</li>
+                                                    <li>Good Design</li>
+                                                    <li>1 Revision</li>
+                                                    <li>10 designs </li>
+                                                </ul>
+                                            </div>
+                                            <div class="price">
+                                                <sup>$</sup><span>999</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 justify-center">
+                                    <p>All packages come with full copyright ownership of the final design.
+                                         They also include the prize for your winning designer, 
+                                         all fees and commissions.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-center pt-2">
+                                    <a href="" class="CTA-1">
+                                            Get Started Now
+                                        </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Panel ended -->
+
+        </div>
+    </div>
+</body>
